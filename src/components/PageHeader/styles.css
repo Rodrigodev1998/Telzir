@@ -1,0 +1,30 @@
+.page-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+  }
+  
+  .page-header .top-bar-container {
+    margin: -1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  .logo{
+    width: 95px;
+    padding: 6px;
+  }
+
+  .button-home {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-text-title);
+  }
+  
+  .page-header {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
