@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+ 
+## <p align="center"> <b> PROJETO - TELEFONIA TELZIR (FALEMAIS) </p> </b>
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💻 Sobre o projeto
 
-## Available Scripts
+A empresa de telefonia Telzir, especializada em chamadas de longa distância nacional,
+vai colocar um novo produto no mercado chamado FaleMais. Normalmente um cliente
+Telzir pode fazer uma chamada de uma cidade para outra pagando uma tarifa fixa por
+minuto, com o preço sendo pré-definido em uma lista com os códigos DDDs de origem
+e destino.
+Com o novo produto FaleMais da Telzir o cliente adquire um plano e pode falar de graça até
+um determinado tempo (em minutos) e só paga os minutos excedentes. Os minutos
+excedentes tem um acréscimo de 10% sobre a tarifa normal do minuto. Os planos são
+FaleMais 30 (30 minutos), FaleMais 60 (60 minutos) e FaleMais 120 (120 minutos).
+A Telzir, preocupada com a transparência junto aos seus clientes, quer disponibilizar uma
+página na web onde o cliente pode calcular o valor da ligação. Ali, o cliente pode escolher os
+códigos das cidades de origem e destino, o tempo da ligação em minutos e escolher qual o
+plano FaleMais
+<br>
+<br>
+</br>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠 Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Foi utilizada a linguagem JavaScript executada com a biblioteca([React](https://reactjs.org/)).
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
+## 🚀 Como executar o projeto
 
-### `npm test`
+#### 🧭 Rodando a aplicação web (Frontend)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
 
-### `npm run build`
+# Clone este repositório
+$ git clone git@github.com:tgmarinho/README-ecoleta.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd README-ecoleta
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Vá para a pasta da aplicação Front End
+$ cd web
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Instale as dependências
+$ npm install
 
-### `npm run eject`
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+---
+## 👨‍💻 Contribuição
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Sinta-se a vontade para contribuir com sugestões, dicas, melhores práticas, etc. Toda ajuda é bem-vinda!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💪 Como contribuir para o projeto
 
-## Learn More
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
