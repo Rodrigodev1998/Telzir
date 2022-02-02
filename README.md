@@ -36,19 +36,16 @@ Foi utilizada a linguagem JavaScript executada com a biblioteca([React](https://
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
+$ git clone git@github.com:Rodrigodev1998/Telzir.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd README-ecoleta
-
-# Vá para a pasta da aplicação Front End
-$ cd web
+$ cd Telzir
 
 # Instale as dependências
-$ npm install
+$ npm install 
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run start
+$ npm start
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
